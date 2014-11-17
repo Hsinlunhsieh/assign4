@@ -343,44 +343,44 @@ void printText(){
    switch(status){
       case GAME_START:
         textSize(60);
-        textAlign(CENTER);
+        textAlign(CENTER,CENTER);
         fill(95, 194, 226);
         text("GALIXIAN", 320, 240); 
         textSize(20);
-        textAlign(CENTER);
+        textAlign(CENTER,CENTER);
         fill(95, 194, 226);
         text("Press ENTER to Start",320, 280); 
         break;
         
       case GAME_PAUSE:
         textSize(40);
-        textAlign(CENTER);
+        textAlign(CENTER,CENTER);
         fill(95, 194, 226);
         text("PAUSE", 320, 240); 
         textSize(20);
-        textAlign(CENTER);
+        textAlign(CENTER,CENTER);
         fill(95, 194, 226);
         text("Press ENTER to Resume",320, 280); 
         break;
         
       case GAME_WIN:
         textSize(40);
-        textAlign(CENTER);
+        textAlign(CENTER,CENTER);
         fill(95, 194, 226);
         text("WINNER", 320, 300); 
         textSize(20);
-        textAlign(CENTER);
+        textAlign(CENTER,CENTER);
         fill(95, 194, 226);
         text("SCORE:"+point,320, 340); 
         break;
         
       case GAME_LOSE:
         textSize(40);
-        textAlign(CENTER);
+        textAlign(CENTER,CENTER);
         fill(95, 194, 226);
         text("BOOOM", 320, 240); 
         textSize(20);
-        textAlign(CENTER);
+        textAlign(CENTER,CENTER);
         fill(95, 194, 226);
         text("You are deader!!!",320, 280); 
         break;
