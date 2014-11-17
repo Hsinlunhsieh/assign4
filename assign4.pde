@@ -123,8 +123,8 @@ void keyPressed() {
 /*---------Make Alien Function-------------*/
 void alienMaker(int alienNum,int columns) {   
   for(int i =0; i< alienNum; i++){
-      int row = i / columns;
-      int col = i % columns;
+      int row =int( i / columns);
+      int col = int(i % columns);
       int aX = 50 + col*40;
       int aY = 50 + row*50;
       aList[i]=new Alien(aX,aY);      
