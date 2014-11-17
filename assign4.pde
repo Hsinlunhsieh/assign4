@@ -382,7 +382,7 @@ void printText(){
         textSize(20);
         textAlign(CENTER,CENTER);
         fill(95, 194, 226);
-        text("You are deader!!!",320, 280); 
+        text("You are dead!!!",320, 280); 
         break;
     
   }
